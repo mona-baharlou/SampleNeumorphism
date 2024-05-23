@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.SampleNeumorphism" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.SampleNeumorphism" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!--  Primary brand color.  -->
         <item name="colorPrimary">@color/new_background</item>
         <item name="colorPrimaryVariant">@color/new_background</item>
