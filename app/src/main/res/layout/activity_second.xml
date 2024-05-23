@@ -20,25 +20,26 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tesla"
-
-                android:textColor="@color/text_gray" />
+                android:textColor="@color/text_gray"
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cybertruck"
                 android:textColor="?attr/colorOnPrimary"
+                android:textSize="20sp" />
         </LinearLayout>
 
 
@@ -47,7 +48,7 @@
             android:layout_width="68dp"
             android:layout_height="68dp"
             android:padding="26dp"
-            android:src="@drawable/ic_statics"
+            android:src="@drawable/ic_account"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -62,7 +63,7 @@
             android:layout_width="68dp"
             android:layout_height="68dp"
             android:padding="26dp"
-            android:src="@drawable/ic_setting"
+            android:src="@drawable/ic_range"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -72,6 +73,17 @@
             app:neumorph_shadowElevation="4dp"
             app:neumorph_shapeAppearance="@style/NeumorphismImage"
             app:neumorph_shapeType="pressed" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/img_tesla2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraint_second_sub" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
