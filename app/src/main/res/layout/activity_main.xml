@@ -28,10 +28,11 @@
 
 
         <soup.neumorphism.NeumorphImageView
-            android:id="@+id/neumorphImageView5"
+            android:id="@+id/neumorphImageView8"
             android:layout_width="68dp"
             android:layout_height="68dp"
             android:padding="26dp"
+            android:tint="@color/blue_light"
             android:src="@drawable/ic_statics"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -46,6 +47,7 @@
         <soup.neumorphism.NeumorphImageView
             android:layout_width="68dp"
             android:layout_height="68dp"
+            android:id="@+id/neumorphImageView7"
             android:padding="26dp"
             android:src="@drawable/ic_setting"
             app:layout_constraintBottom_toBottomOf="parent"
