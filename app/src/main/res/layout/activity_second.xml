@@ -80,7 +80,7 @@
     <ImageView
         android:id="@+id/img_tesla"
         android:layout_width="match_parent"
-        android:layout_height="210dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:src="@drawable/img_tesla2"
         app:layout_constraintEnd_toEndOf="parent"
