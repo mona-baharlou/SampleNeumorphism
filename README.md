@@ -1,3 +1,3 @@
-Sample project in order to work with Neumorphism library
+This app uses Neumorphism library for the sleek design elements
 
 ![](app/src/main/res/drawable/srec.gif)
